@@ -1,27 +1,228 @@
-<div class="section">
-<h2>Áreas de Atuação</h2>
-<p>
-✔ Direito do Trabalho<br>
-✔ Direito Previdenciário<br>
-✔ Direito Civil<br>
-&nbsp;&nbsp;&nbsp;• Família<br>
-&nbsp;&nbsp;&nbsp;• Sucessões<br>
-&nbsp;&nbsp;&nbsp;• Direito das Coisas<br>
-&nbsp;&nbsp;&nbsp;• Usucapião<br>
-&nbsp;&nbsp;&nbsp;• Inventários<br>
-✔ Direito Criminal<br>
-✔ Direito Administrativo<br>
-&nbsp;&nbsp;&nbsp;• Processos Administrativos Disciplinares (PADs)<br>
-&nbsp;&nbsp;&nbsp;• Sindicâncias
-</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rafael Leite - Advogado</title>
+
+<style>
+  :root{
+    --bg:#0e0e0f;
+    --card:#17171a;
+    --muted:#bdbdc7;
+    --line:#2a2a2f;
+    --gold:#d7b56d;
+  }
+
+  body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: #fff;
+  }
+
+  header{
+    background: linear-gradient(180deg, #000 0%, #111 100%);
+    padding: 56px 18px 38px;
+    text-align:center;
+    border-bottom: 1px solid var(--line);
+  }
+  header h1{ margin:0; font-size: 40px; letter-spacing: .4px;}
+  header p{ margin:10px 0 0; color: var(--muted); font-size: 18px;}
+
+  .container{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 28px 18px 10px;
+  }
+
+  .card{
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 22px;
+    margin: 18px 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+  }
+
+  h2{
+    margin: 0 0 14px;
+    font-size: 22px;
+    letter-spacing: .2px;
+  }
+
+  .tagline{
+    color: var(--muted);
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+
+  .areas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 14px;
+  }
+
+  .pill{
+    background: #111;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 12px 12px;
+    display:flex;
+    gap: 10px;
+    align-items:flex-start;
+  }
+
+  .pill b{ color:#fff; }
+  .pill small{ color: var(--muted); display:block; margin-top:4px; line-height:1.35; }
+
+  .check{
+    color: var(--gold);
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  img{
+    width:100%;
+    height:auto;
+    border-radius: 14px;
+    border: 1px solid var(--line);
+    margin-top: 14px;
+  }
+
+  .contact{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .btn{
+    display:inline-block;
+    padding: 12px 14px;
+    border-radius: 12px;
+    background:#0b0b0c;
+    border:1px solid var(--line);
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+  }
+  .btn:hover{ border-color:#3a3a44; }
+
+  footer{
+    margin-top: 30px;
+    padding: 26px 18px;
+    text-align:center;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    background:#0b0b0c;
+  }
+
+  @media (max-width: 760px){
+    header h1{ font-size: 34px; }
+    .areas{ grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Dr. Rafael Leite</h1>
+  <p>Advogado – OAB/RS 103.216</p>
+  <div class="tagline">
+    Atuação estratégica e completa em demandas cíveis, trabalhistas, previdenciárias, criminais e administrativas.
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Áreas de Atuação</h2>
+
+    <div class="areas">
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Trabalhista</b>
+          <small>Reclamatórias, verbas rescisórias, acordos, audiências e recursos.</small>
+        </div>
+      </div>
+
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Previdenciário</b>
+          <small>Aposentadorias, revisões, benefícios, BPC/LOAS e recursos.</small>
+        </div>
+      </div>
+
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Cível</b>
+          <small>Família, sucessões, inventários, direito das coisas e usucapião.</small>
+        </div>
+      </div>
+
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Criminal</b>
+          <small>Defesa técnica, audiências, memoriais, recursos e acompanhamento de flagrantes.</small>
+        </div>
+      </div>
+
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Administrativo</b>
+          <small>PADs, sindicâncias, defesas, razões finais, recursos e estratégia probatória.</small>
+        </div>
+      </div>
+
+      <div class="pill">
+        <div class="check">✓</div>
+        <div>
+          <b>Consultivo</b>
+          <small>Pareceres, contratos, notificações e prevenção de litígios.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Atuação e Imagens</h2>
+    <div class="tagline">Alguns registros profissionais (seleção).</div>
+
+    <!-- TROQUE OS NOMES AQUI conforme você renomear as fotos -->
+    <img src="foto1.jpg" alt="Foto profissional" />
+    <img src="mba.jpg" alt="Registro acadêmico" />
+    <img src="toga.jpg" alt="De toga" />
+    <img src="com-jean-severo.jpg" alt="Parceria jurídica" />
+    <img src="sustentacao-oral.jpg" alt="Sustentação oral" />
+  </div>
+
+  <div class="card">
+    <h2>Contato</h2>
+    <div class="tagline">Atendimento via WhatsApp:</div>
+
+    <div class="contact">
+      <a class="btn" href="https://wa.me/5551997303294" target="_blank">📱 (51) 99730-3294</a>
+      <a class="btn" href="https://wa.me/5551999800377" target="_blank">📱 (51) 99980-0377</a>
+    </div>
+  </div>
+
 </div>
+
 <footer>
-<p>Contato:</p>
-<p>
-📞 <a href="https://wa.me/5551997303294">51 99730-3294</a><br>
-📞 <a href="https://wa.me/5551999800377">51 99980-0377</a>
-</p>
+  © <span id="ano"></span> Rafael Leite — OAB/RS 103.216
 </footer>
+
+<script>
+  document.getElementById("ano").textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
